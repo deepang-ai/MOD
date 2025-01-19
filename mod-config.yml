@@ -1,0 +1,45 @@
+trainer:
+  num_epochs: 300
+  warmup: 8
+  batch_size: 4
+  lr: 0.0001
+  weight_decay: 0.05
+  train_ratio: 0.8
+  num_workers: 8
+  seed: 42
+  seg_only: True
+  mixed_precision: 'no'
+  mask_ratio: 0.6
+  momentum_teacher: 0.996
+  patch_ratio: 0.2
+  dp_ratio: 0.2
+  is_brats2019: False
+  brats2019: /dataset/cv/seg/BRaTS2019/Task01_BrainTumour/
+  brats2021: /dataset/cv/seg/BRaTS2021
+unetr:
+  image_size: 128
+  in_channels: 4
+  out_channels: 3
+  patch_size: 16
+  dropout: 0.3
+  embed_dim: 768
+  encoder_num_heads: 12
+  encoder_depth: 6
+  decoder_num_heads: 12
+  decoder_depth: 6
+swin_unetr:
+  img_size: 128
+  in_channels: 4
+  out_channels: 3
+vit:
+  img_size: 128
+  in_channels: 4
+  out_channels: 3
+  patch_size: 16
+unetrpp:
+  image_size: 128
+  in_channels: 4
+  out_channels: 3
+segmamba:
+  in_chans: 4
+  out_chans: 3
