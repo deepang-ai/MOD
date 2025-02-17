@@ -1,6 +1,6 @@
 # MOD: Online Self-distillation and Self-modeling for 3D Brain Tumor Segmentation
 
-> 🎉 This work is accepted by [IEEE Journal of Biomedical and Health Informatics](https://ieeexplore.ieee.org/document/10843341)
+> 🎉 This work is published in [IEEE Journal of Biomedical and Health Informatics](https://ieeexplore.ieee.org/document/10843341)
 
 # Network Architecture
 
